@@ -229,7 +229,7 @@ nav img {
 
 .text {
     color: white;
-    font-size: 35px;
+    font-size: 1em;
     position: absolute;
     width: 80%;
     top: 50%;
@@ -277,7 +277,7 @@ nav img {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 1em;
     transition: 1s;
     opacity: 0;
 }
@@ -832,12 +832,21 @@ h6 {
     .coll img:hover {
         transform: scale(1.25);
     }
+
+    .text {
+        font-size: 1em;
+        margin-top: -15px;
+    }
 }
 
 @media screen and (max-width: 575px) {
     .coll {
         margin: 0 2%;
         width: 46%;
+    }
+    .text {
+        font-size: 0.8em;
+        margin-top: -15px;
     }
 
     .coll img:hover {
