@@ -203,9 +203,9 @@ $(document).ready(function () {
         $('#navigate li').eq(prevImgIndex).addClass('yBack');
     });
 
-    //    setInterval(function () {
-    //        $('.next').trigger('click')
-    //    }, 6000);
+        setInterval(function () {
+            $('.next').trigger('click')
+        }, 6000);
 
     $('#nav-icon4').click(function () {
         $(this).toggleClass('open');
